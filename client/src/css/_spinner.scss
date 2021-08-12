@@ -1,0 +1,172 @@
+.spinner {
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+  animation-duration: 2s;
+}
+
+.spinner:hover {
+  animation-play-state: paused;
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  border: none;
+  border-radius: 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+
+.circle-1 {
+  top: 0;
+  left: 15px;
+  background-color: #D2AE93;
+  animation-name: circle1;
+}
+
+.circle-2 {
+  top: 15px;
+  left: 0;
+  background-color: #D2AE93;
+  animation-name: circle2;
+  animation-duration: 1s;
+}
+
+.circle-3 {
+  bottom: 0;
+  left: 15px;
+  background-color: #D2AE93;
+  animation-name: circle3;
+  animation-duration: 1s;
+}
+
+.circle-4 {
+  top: 15px;
+  right: 0;
+  background-color: #D2AE93;
+  animation-name: circle4;
+  animation-duration: 1s;
+}
+
+.circle-5 {
+  top: 0;
+  left: 0;
+  background-color: #e6a652;
+  animation-name: circle5;
+  animation-duration: 1s;
+}
+
+.circle-6 {
+  bottom: 0;
+  left: 0;
+  background-color: #e6a652;
+  animation-name: circle6;
+  animation-duration: 1s;
+}
+
+.circle-7 {
+  bottom: 0;
+  right: 0;
+  background-color: #e6a652;
+  animation-name: circle7;
+  animation-duration: 1s;
+}
+
+.circle-8 {
+  top: 0;
+  right: 0;
+  background-color: #e6a652;
+  animation-name: circle8;
+  animation-duration: 1s;
+}
+
+@keyframes circle1 {
+  from{
+    transform: translate(0px, 15px);
+  }
+  to {
+    transform: translate(0px, -5px);
+  }
+}
+
+@keyframes circle2{
+  from{
+    transform: translate(15px, 0px);
+  }
+  to {
+    transform: translate(-5px, 0px);
+  }
+}
+
+@keyframes circle3{
+  from{
+    transform: translate(0px, -15px);
+  }
+  to {
+    transform: translate(0px, 5px);
+  }
+}
+
+@keyframes circle4{
+  from{
+    transform: translate(-15px, 0px);
+  }
+  to {
+    transform: translate(5px, 0px);
+  }
+}
+
+@keyframes circle5{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(15px, 15px);
+  }
+}
+
+@keyframes circle6{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(15px, -15px);
+  }
+}
+
+@keyframes circle7{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-15px, -15px);
+  }
+}
+
+@keyframes circle8{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-15px, 15px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

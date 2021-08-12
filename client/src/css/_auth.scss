@@ -1,0 +1,44 @@
+.auth {
+  padding: 137px 0 220px;
+  height: 100vh;
+  background-color: #F6EBE3;
+
+  &-title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &-form {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  &-label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  &-input {
+    width: 790px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 22px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: transparent;
+
+    &::placeholder {
+      color: #cfc0b3;
+    }
+  }
+}

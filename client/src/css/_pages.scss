@@ -1,0 +1,23 @@
+.pages {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 320px;
+  background-color: cadetblue;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: transparent;
+
+  &-item {
+    display: inline-block;
+    width: 40px;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #000;
+    &-active {
+      background-color: #D2AE93;
+    }
+  }
+}
