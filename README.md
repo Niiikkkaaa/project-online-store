@@ -1,4 +1,4 @@
-# project-oline-store
+# project-online-store
 ![image](https://user-images.githubusercontent.com/55030122/129213867-34941d20-9c46-41f8-bc6f-ab41bc9f7078.png)
 
 ![image](https://user-images.githubusercontent.com/55030122/129213930-235b12cc-101c-4a68-b19a-89d7b2943c89.png)
